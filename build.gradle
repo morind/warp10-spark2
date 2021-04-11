@@ -133,8 +133,8 @@ dependencies {
   //
   // Apache Spark
   //
-  compile 'org.apache.spark:spark-core_2.11:2.2.3'
-  compile 'org.apache.spark:spark-sql_2.11:2.2.3'
+  compile 'org.apache.spark:spark-core_2.12:2.4.3'
+  compile 'org.apache.spark:spark-sql_2.12:2.4.3'
 
 }
 
@@ -239,9 +239,9 @@ bintray {
   pkg {
     repo = 'maven'
     name = 'warp10-spark'
-    userOrg = 'senx'
+    userOrg = 'morind'
     licenses = ['Apache-2.0']
-    vcsUrl = 'https://github.com/senx/warp10-spark2.git'
+    vcsUrl = 'https://github.com/morind/warp10-spark2.git'
     version {
       //name = version
       name = getVersionName('')
